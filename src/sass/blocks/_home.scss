@@ -1,0 +1,13 @@
+.home{
+    &-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    &-img{
+        img{
+            border-radius: 20px;
+            max-width: 200px;
+        }   
+    }
+}

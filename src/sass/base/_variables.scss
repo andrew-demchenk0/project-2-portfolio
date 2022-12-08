@@ -1,0 +1,14 @@
+[data-theme="dark"] {
+    --title-color: #EEEEEE;
+    --subtitle-color: #4c4c4c;
+    --descr-color: #cccccc;
+    --bg-color: #323232;
+    // --heading-color: #818cab;
+}
+[data-theme="light"] {
+    --title-color: #323232;
+    --subtitle-color: #4c4c4c;
+    --descr-color: #666666;
+    --bg-color: #EEEEEE;
+    // --heading-color: #818cab;
+}

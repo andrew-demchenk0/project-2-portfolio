@@ -1,0 +1,9 @@
+.skils{
+    &-wrapper{
+        display: grid;
+        grid-template: repeat(2, 120px) / repeat(auto-fit, 120px);
+        gap: 80px;
+        justify-items: center;
+        align-items: center;
+    }
+}

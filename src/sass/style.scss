@@ -1,0 +1,28 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Roboto:ital,wght@0,300;1,100&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    background-color: var(--bg-color);
+	color: var(--font-color);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 210px 80px 0 80px;
+    margin: 0 auto;
+    max-width: 1400px;
+    &__nav{
+        padding: 20px 180px 0 180px;
+        height: 1vh;
+    }
+}
+
+@import 'blocks/nav';
+@import 'blocks/home';
+@import 'blocks/text';
+@import 'blocks/skils';
