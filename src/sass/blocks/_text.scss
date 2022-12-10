@@ -1,59 +1,82 @@
+.nav{
+	&__fz20{
+		font-weight: 500;
+	line-height: 26px;
+		font-size: 20px;
+		color: var(--nav-footer-color);
+		a{
+			color: var(--nav-footer-color);
+		}
+	}
+}
 .title{
 	text-align: center;
-	margin-bottom: 50px;
-	&_home{
-		text-align: left;
-	}
+	font-weight: 700;
+	line-height: 26px;
+	color: var(--title-color);
 	&__fz58{
-        font-weight: 700;
+		text-align: left;
 		font-size: 58px;
-        line-height: 70px; 
-		color: var(--title-color);
-    }
-    &__fz48{
-        font-weight: 700;
+		line-height: 70px;	
+	}
+	&__fz48{
 		font-size: 48px;
-		line-height: 26px;
-		color: var(--title-color);
-    }
-    
+	}
+	&__fz28{
+		font-weight: 500;
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
 }
 .subtitle{
 	text-align: center;
-	margin-bottom: 120px;
-	line-height: 26px; 
-	&__fz32{
-        font-weight: 400;
-		font-size: 32px;
-		color: var(--subtitle-color);
-    }
-	&__fz28{
-		font-weight: 500;
-		font-size: 28px;	
-		color: var(--title-color);
-    }
-    
-}
-.descr{
+	margin: 50px 0 100px 0;
+	font-weight: 400;
 	line-height: 26px;
-	&__fz18{
-		font-weight: 300;
-		font-size: 18px;
-		color: var(--title-color);
-    }
-	&__fz16{
+	color: var(--subtitle-color);
+	&__fz32{
+		font-size: 32px;
+	}
+}
+
+.card{
+	line-height: 26px;
+	&-title{
+		&__fz28{
+			margin-bottom:15px;
+			text-align: center;
+			font-weight: 500;
+			line-height: 26px;
+			font-size: 28px;
+			color: var(--card-title-color);
+		}
+	}
+	&-text_align{
+		text-align: left;
+	}
+	&-subtitle{
+		&__fz20{
+			font-weight: 500;
+			font-size: 20px;
+			color: var(--card-subtitle-color);
+		}
+	}
+	&-descr{
+		&__fz18{
+			margin-bottom: 15px;
+			font-weight: 300;
+			font-size: 18px;
+			color: var(--card-descr-color);
+		}
+		&__fz16{
+			margin-bottom: 20px;
+			font-weight: 400;
+			font-size: 16px;
+			color: var(--card-descr-color);
+		}
+	}
+	&__link{
 		font-weight: 400;
 		font-size: 16px;
-		color: var(--fz16-color);
-		
 	}
-	
-	&__fz20{
-        font-weight: 500;
-		font-size: 20px;
-		color: var(--descr-color);
-		a{
-			color: var(--descr-color);
-		}
-    }
-}
+}	

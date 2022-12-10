@@ -9,14 +9,13 @@
     }
     &__card{
         padding: 20px;
-        box-shadow: 0px 0px 5px 2px var(--title-color);
         position: relative;
         display: grid;
         grid-template: minmax(200px, auto) / 100px auto;
         gap: 30px;
-        border-radius: 40px;   
-        border: 2px;
-        border-color: black;
+        border-radius: 40px;  
+        box-shadow: 2px 2px 50px 0px var(--box-shadow-color);
+        background: var(--card-bg-color); 
     }
     &__descr{
         display: flex;

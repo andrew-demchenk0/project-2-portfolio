@@ -5,13 +5,13 @@
 @import 'base/mixins';
 
 * {
-    background-color: var(--bg-color);
-	color: var(--font-color);
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: var(--bg-color);
+}
 .container{
     padding: 210px 80px 0 80px;
     margin: 0 auto;
@@ -27,3 +27,4 @@
 @import 'blocks/text';
 @import 'blocks/skils';
 @import 'blocks/education';
+@import 'blocks/projects';
