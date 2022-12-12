@@ -92,9 +92,13 @@
 		line-height: 26px;
 		font-size: 18px;
 		color: var(--nav-footer-color);
+		cursor: pointer;
 		&:last-child{
             margin-bottom: 0;
 		}	
+		&:hover{
+			color: var(--title-color);
+		}
 		a{
 			color: var(--nav-footer-color);
 			&:hover{

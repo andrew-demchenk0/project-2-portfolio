@@ -33,7 +33,7 @@ toggleSwitch.addEventListener('change', function(){
     if (currentTheme === 'light'){
         replaceWord.innerText = 'Enable Dark Mode!';
     } else{
-        replaceWord.innerText = 'Enable Light Mode!';
+        replaceWord.innerText = 'Disable Dark Mode!';
     }
 });
 
@@ -67,3 +67,12 @@ function changeLanguage() {
 }
 
 changeLanguage();
+
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+} 

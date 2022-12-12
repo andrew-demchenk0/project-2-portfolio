@@ -81,11 +81,11 @@ const langArr = {
     },
     'projects': {
         'en': 'Projects',
-        'ua': 'Проекти',
+        'ua': 'Проєкти',
     },
     'projectsSub': {
         'en': 'My finished projects that I worked on',
-        'ua': 'Мої готові проекти, над якими я працював',
+        'ua': 'Мої готові проєкти, над якими я працював',
     },
     'soon2': {
         'en': 'comming soon...',
