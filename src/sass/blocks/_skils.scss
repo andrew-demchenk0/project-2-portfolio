@@ -1,10 +1,17 @@
 .skils{
     &-wrapper{
         display: grid;
-        grid-template: 120px / repeat(auto-fit, 120px);
-        grid-auto-rows: 120px;
+        grid-template: 100px / repeat(auto-fit, 100px);
+        grid-auto-rows: 100px;
         gap: 80px;
         justify-items: center;
         align-items: center;
+    }
+    &-item{
+        width: 100px;
+        height: 100px;
+        img{
+            width: 100%;
+        }
     }
 }

@@ -29,7 +29,12 @@
         margin-top: 20px;
         display: flex;
         justify-content: space-between;
+        img{
+            width: 25px;
+            height: 25px;
+        }
         a{
+            color: #66bb6a;
             margin-left: 10px;
         }
     }
