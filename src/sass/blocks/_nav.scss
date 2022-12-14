@@ -6,9 +6,6 @@ nav {
 	justify-content: center;
 	align-content: center;
 }
-.topnav{
-	display: none;
-}
 /* logo */
 .logo{
 	&-img{
@@ -60,7 +57,7 @@ nav {
 		text-align: center;
 	}	
 }
-
+                                    
 /*slider switch dark mode */
 .theme-switch-wrapper {
 	transform: translateY(-10%);
@@ -113,6 +110,8 @@ input:checked + .slider:before {
 }
 //mobile-nav
 .topnav {
+	display: none;
+
 	overflow: hidden;
 	background-color: var(--bg-color);
 	box-shadow: 0px 24px 36px -11px var(--box-shadow-color);
@@ -137,9 +136,6 @@ input:checked + .slider:before {
 		position: absolute;
 		right: 0;
 		top: 0;
-		&:hover {
-			color: var(--nav-footer-color);
-		}
 	}
 	.switchers{
 		display: flex;

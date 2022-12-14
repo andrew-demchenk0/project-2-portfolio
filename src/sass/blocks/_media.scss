@@ -310,7 +310,7 @@
     }
 
     .education__card {
-        width: 400px;
+        max-width: 400px;
         grid-template: minmax(150px,auto)/100px auto;
     }
     .skils{
@@ -408,9 +408,7 @@
     }   
     .education{
         &__card {
-            width: 100%;
             grid-template: minmax(150px,auto)/85px auto;
-            justify-content: center;
         } 
         &__img {
             width: 70px;
