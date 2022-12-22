@@ -14,7 +14,7 @@
         max-width: 370px;
         border-radius: 22px;
         background: var(--card-bg-color);
-        box-shadow: 2px 2px 50px 0px var(--box-shadow-color);
+        @include hover-effect;
     }
     &__img{
         height: 260px;

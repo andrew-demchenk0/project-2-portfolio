@@ -14,7 +14,7 @@
         grid-template: minmax(200px, auto) / 100px auto;
         gap: 30px;
         border-radius: 20px;  
-        box-shadow: 2px 2px 50px 0px var(--box-shadow-color);
+        @include hover-effect;
         background: var(--card-bg-color); 
     }
     &__descr{

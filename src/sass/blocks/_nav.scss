@@ -12,6 +12,9 @@ nav {
 		svg, path{
 			transform: translateY(-46%);
 		}		
+	}
+	&:hover{
+		@include logo-hover;
 	}	
 }
 .nav{
@@ -97,7 +100,7 @@ nav {
 	}
 }
 input:checked + .slider {
-	background-color: #66bb6a;
+	background-color: var(--main-color);
 }
 input:checked + .slider:before {
 	transform: translateX(26px);

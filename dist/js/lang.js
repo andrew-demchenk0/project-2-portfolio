@@ -97,21 +97,21 @@ const langArr = {
 
 
 
-    'nav5': {
-        'en': 'tech skils', 
-        'ua': 'стек',
-    },
-    'nav6': {
-        'en': 'education',
-        'ua': 'освіта',
-    },
-    'nav7': {
-        'en': 'projects',
-        'ua': 'проекти',
-    },
-    'nav8': {
-        'en': 'contact me',
-        'ua': 'контакти',
-    },
+    // 'nav5': {
+    //     'en': 'tech skils', 
+    //     'ua': 'стек',
+    // },
+    // 'nav6': {
+    //     'en': 'education',
+    //     'ua': 'освіта',
+    // },
+    // 'nav7': {
+    //     'en': 'projects',
+    //     'ua': 'проекти',
+    // },
+    // 'nav8': {
+    //     'en': 'contact me',
+    //     'ua': 'контакти',
+    // },
     
 }
