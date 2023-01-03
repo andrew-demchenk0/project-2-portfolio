@@ -73,11 +73,15 @@
 			font-weight: 400;
 			font-size: 16px;
 			color: var(--card-descr-color);
-		}
-		&__fz16-education{
-			margin-bottom: 0;
-		}
-	}
+			&-education{
+				margin-bottom: 0;
+				color: #66bb6a;
+				&:hover{
+					color: #66bb6a;
+				}
+			}
+		}	
+	}	
 	&__link{
 		font-weight: 400;
 		font-size: 16px;

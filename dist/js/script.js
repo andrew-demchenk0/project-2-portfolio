@@ -3,8 +3,24 @@ const currentTheme = localStorage.getItem('theme');
 
 const replaceWord = document.querySelector('.theme_mode');
 
-const select = document.querySelector('select');
+var select = document.getElementById('selectDesktop');
 const allLang = ['en', 'ua'];
+
+/* swap id in mobile version*/
+if (window.innerWidth <= 576) {
+    select = document.getElementById('selectMobile');
+
+    /* responsiveAutoTheme */
+    const responsiveAutoTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (responsiveAutoTheme.matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else { 
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+    };
+};
 
 /* theme-switcher */
 if (currentTheme) {
@@ -62,8 +78,7 @@ function changeLanguage() {
         if (elem) {
             elem.innerHTML = langArr[key][hash];
         };
-
-    };
+    };  
 };
 
 changeLanguage();
@@ -80,12 +95,13 @@ function myFunction() {
 /* page scroll up */
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop() > 1000){
+        if($(this).scrollTop() > 350){
             $('.pageup').fadeIn();   
         } else {
             $('.pageup').fadeOut();   
         };
     });
+
     $("a[href='#up']").click(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;

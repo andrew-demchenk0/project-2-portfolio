@@ -3,15 +3,7 @@
     transition: 0.4s;
     &:hover{
         box-shadow: 0px 0px 10px 2px var(--main-color);
-        transform: scale(1.03);
+        transform: scale(1.01);
         
     }
-}
-
-@mixin logo-hover {
-    &:hover{
-        transition: 0.5s;
-        transform: rotateZ(360deg);
-    }
-   
 }

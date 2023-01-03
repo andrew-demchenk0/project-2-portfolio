@@ -12,9 +12,6 @@ nav {
 		svg, path{
 			transform: translateY(-46%);
 		}		
-	}
-	&:hover{
-		@include logo-hover;
 	}	
 }
 .nav{
