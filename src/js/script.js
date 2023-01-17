@@ -95,7 +95,7 @@ function myFunction() {
 /* page scroll up */
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop() > 350){
+        if($(this).scrollTop() > 750){
             $('.pageup').fadeIn();   
         } else {
             $('.pageup').fadeOut();   
